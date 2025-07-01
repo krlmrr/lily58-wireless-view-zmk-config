@@ -16,8 +16,6 @@
             flavor = "tap-preferred";
             tapping-term-ms = <170>;
             bindings = <&kp>, <&kp>;
-
-            display-name = "Layer-Tap";
         };
 
         l_shift_or_caps_word: l_shift_or_caps_word {
