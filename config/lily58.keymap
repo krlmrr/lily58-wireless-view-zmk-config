@@ -89,14 +89,16 @@
 
         combo_halt_alt {
             bindings = <&kp LA(LC(ESCAPE))>;
-            key-positions = <50 24 54>;
+            key-positions = <50 54 24>;
             timeout-ms = <200>;
             layers = <1>;
         };
 
         combo_screen_shot {
             bindings = <&kp LG(S)>;
-            key-positions = <53 24 4>;
+            key-positions = <53 4 36>;
+            timeout-ms = <200>;
+            layers = <1>;
         };
     };
 
