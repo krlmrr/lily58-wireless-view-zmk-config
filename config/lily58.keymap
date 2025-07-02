@@ -95,7 +95,7 @@
         };
 
         combo_screen_shot {
-            bindings = <&kp LG(S)>;
+            bindings = <&kp LG(LS(S))>;
             key-positions = <53 4 36>;
             timeout-ms = <200>;
             layers = <1>;
