@@ -54,12 +54,14 @@
 
         combo_win_key {
             bindings = <&kp LEFT_WIN>;
+            timeout-ms = <50>;
             key-positions = <53 54>;
             layers = <1>;
         };
 
         combo_quit {
             bindings = <&kp LA(F4)>;
+            timeout-ms = <50>;
             key-positions = <53 13>;
             layers = <1>;
         };
