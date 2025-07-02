@@ -84,8 +84,6 @@
 &l_shift_or_caps_word  &kp Z   &kp X   &kp C     &kp V     &kp B   &kp ENTER                  &kp BACKSPACE             &kp N   &kp M      &kp COMMA      &kp DOT  &kp FSLH  &r_shift_or_caps_word
                                        &kp LALT  &kp LGUI  &mo 3   &mtt LEFT_COMMAND SPACE    &mtt RIGHT_COMMAND SPACE  &mo 2   &kp ENTER  &kp RIGHT_ALT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         Win-Lin {
