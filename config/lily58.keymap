@@ -69,7 +69,7 @@
         combo_lock {
             bindings = <&kp LG(L)>;
             key-positions = <53 13 24>;
-            timeout-ms = <170>;
+            timeout-ms = <200>;
             layers = <1>;
         };
     };
