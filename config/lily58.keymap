@@ -93,6 +93,11 @@
             timeout-ms = <200>;
             layers = <1>;
         };
+
+        combo_screen_shot {
+            bindings = <&kp LG(S)>;
+            key-positions = <53 24 4>;
+        };
     };
 
     keymap {
