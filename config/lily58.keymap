@@ -88,7 +88,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        Windows-Linux {
+        Win-Lin {
             bindings = <
 &trans  &trans  &trans  &trans  &trans        &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans        &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
@@ -96,6 +96,8 @@
 &trans  &trans  &trans  &trans  &trans        &trans  &trans              &trans            &trans  &trans         &trans  &trans  &trans  &trans
                         &trans  &kp LEFT_GUI  &trans  &mtt LCTRL SPACE    &mtt RCTRL SPACE  &trans  &kp RIGHT_GUI  &trans
             >;
+
+            label = "Win/Lin";
         };
 
         Symbols-Arrows {
@@ -114,6 +116,8 @@
 &trans     &kp PERCENT      &kp CARET      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTERISK  &trans    &trans  &none           &kp K_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp RS(SLASH)          &trans
                                            &trans                &trans                 &trans        &trans    &trans  &trans          &trans         &trans
             >;
+
+            label = "Sym";
         };
 
         Function {
