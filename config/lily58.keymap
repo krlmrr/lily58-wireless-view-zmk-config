@@ -79,6 +79,13 @@
             timeout-ms = <200>;
             layers = <1>;
         };
+
+        combo_switch_apps {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <53 12>;
+            timeout-ms = <170>;
+            layers = <1>;
+        };
     };
 
     keymap {
