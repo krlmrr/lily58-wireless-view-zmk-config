@@ -54,7 +54,7 @@
 
         combo_win_key {
             bindings = <&kp LEFT_WIN>;
-            timeout-ms = <200>;
+            timeout-ms = <170>;
             key-positions = <53 54>;
             layers = <1>;
         };
@@ -97,7 +97,7 @@
         combo_screen_shot {
             bindings = <&kp LG(LS(S))>;
             key-positions = <53 4 36>;
-            timeout-ms = <200>;
+            timeout-ms = <170>;
             layers = <1>;
         };
     };
