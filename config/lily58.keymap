@@ -52,13 +52,13 @@
     combos {
         compatible = "zmk,combos";
 
-        win_key {
+        combo_win_key {
             bindings = <&kp LEFT_WIN>;
             key-positions = <53 54>;
             layers = <1>;
         };
 
-        quit {
+        combo_quit {
             bindings = <&kp LA(F4)>;
             key-positions = <53 13>;
             layers = <1>;
