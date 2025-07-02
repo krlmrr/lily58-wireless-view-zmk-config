@@ -116,7 +116,7 @@
 &trans     &kp PERCENT      &kp CARET      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp ASTERISK  &trans    &trans  &none           &kp K_MUTE     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP       &kp RS(SLASH)          &trans
                                            &trans                &trans                 &trans        &trans    &trans  &trans          &trans         &trans
             >;
-
+            display-name = "Symbols";
             label = "Sym";
         };
 
