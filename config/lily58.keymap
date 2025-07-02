@@ -54,7 +54,7 @@
 
         combo_win_key {
             bindings = <&kp LEFT_WIN>;
-            timeout-ms = <170>;
+            timeout-ms = <200>;
             key-positions = <53 54>;
             layers = <1>;
         };
