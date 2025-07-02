@@ -81,9 +81,24 @@
         };
 
         combo_switch_apps {
-            bindings = <&kt LA(TAB)>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <53 12>;
             timeout-ms = <170>;
+            layers = <1>;
+            slow-release;
+        };
+
+        combo_ctrl_alt_delete {
+            bindings = <&kp LA(LC(ESCAPE))>;
+            key-positions = <53 50 24>;
+            timeout-ms = <200>;
+            layers = <1>;
+        };
+
+        combo_halt_alt {
+            bindings = <&kp LA(LC(ESCAPE))>;
+            key-positions = <50 24 54>;
+            timeout-ms = <200>;
             layers = <1>;
         };
     };
