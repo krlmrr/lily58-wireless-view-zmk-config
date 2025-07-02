@@ -81,7 +81,7 @@
         };
 
         combo_switch_apps {
-            bindings = <&kp LA(TAB)>;
+            bindings = <&kt LA(TAB)>;
             key-positions = <53 12>;
             timeout-ms = <170>;
             layers = <1>;
