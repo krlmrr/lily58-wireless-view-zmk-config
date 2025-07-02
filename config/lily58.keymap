@@ -72,6 +72,13 @@
             timeout-ms = <200>;
             layers = <1>;
         };
+
+        combo_lock_right {
+            bindings = <&kp LG(L)>;
+            key-positions = <13 24 54>;
+            timeout-ms = <200>;
+            layers = <1>;
+        };
     };
 
     keymap {
