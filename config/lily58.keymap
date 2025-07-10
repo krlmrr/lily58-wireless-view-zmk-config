@@ -108,11 +108,11 @@
         macOS {
             display-name = "macOS";
             bindings = <
-&kp GRAVE              &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                                                       &kp N6  &kp N7       &kp N8         &kp N9   &kp N0    &kp MINUS
-&kp TAB                &kp Q   &kp W   &kp E     &kp R     &kp T                                                        &kp Y   &kp U        &kp I          &kp O    &kp P     &kp BACKSLASH
-&mt LCTRL ESCAPE       &kp A   &kp S   &kp D     &kp F     &kp G                                                        &kp H   &kp J        &kp K          &kp L    &kp SEMI  &kp SQT
-&l_shift_or_caps_word  &kp Z   &kp X   &kp C     &kp V     &kp B   &kp ENTER                  &kp BACKSPACE             &kp N   &kp M        &kp COMMA      &kp DOT  &kp FSLH  &r_shift_or_caps_word
-                                       &kp LALT  &kp LGUI  &mo 3   &mtt LEFT_COMMAND SPACE    &mtt RIGHT_COMMAND SPACE  &mo 2   &lt 4 ENTER  &kp RIGHT_ALT
+&kp GRAVE              &kp N1  &kp N2  &kp N3    &kp N4  &kp N5                                                       &kp N6  &kp N7       &kp N8         &kp N9   &kp N0    &kp MINUS
+&kp TAB                &kp Q   &kp W   &kp E     &kp R   &kp T                                                        &kp Y   &kp U        &kp I          &kp O    &kp P     &kp BACKSLASH
+&mt LCTRL ESCAPE       &kp A   &kp S   &kp D     &kp F   &kp G                                                        &kp H   &kp J        &kp K          &kp L    &kp SEMI  &kp SQT
+&l_shift_or_caps_word  &kp Z   &kp X   &kp C     &kp V   &kp B   &kp ENTER                  &kp BACKSPACE             &kp N   &kp M        &kp COMMA      &kp DOT  &kp FSLH  &r_shift_or_caps_word
+                                       &kp LALT  &mo 5   &mo 3   &mtt LEFT_COMMAND SPACE    &mtt RIGHT_COMMAND SPACE  &mo 2   &lt 4 ENTER  &kp RIGHT_ALT
             >;
         };
 
@@ -159,6 +159,16 @@
             >;
 
             label = "Hyper";
+        };
+
+        Numbers {
+            bindings = <
+&none  &none  &none  &none  &none  &none                  &none            &none            &none            &none            &none  &none
+&none  &none  &none  &none  &none  &none                  &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none  &none
+&none  &none  &none  &none  &none  &none                  &none            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none  &none
+&none  &none  &none  &none  &none  &none  &none    &none  &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none  &none
+                     &none  &none  &none  &none    &none  &kp KP_NUMBER_0  &none            &none
+            >;
         };
     };
 };
