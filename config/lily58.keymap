@@ -119,11 +119,11 @@
         Win-Lin {
             display-name = "Win/Lin";
             bindings = <
-&trans  &trans  &trans  &trans  &trans        &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans  &trans              &trans            &trans  &trans         &trans  &trans  &trans  &trans
-                        &trans  &kp LEFT_GUI  &trans  &mtt LCTRL SPACE    &mtt RCTRL SPACE  &trans  &kp RIGHT_GUI  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                        &trans  &trans         &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans              &trans            &trans  &trans         &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &mtt LCTRL SPACE    &mtt RCTRL SPACE  &trans  &kp RIGHT_GUI  &trans
             >;
         };
 
