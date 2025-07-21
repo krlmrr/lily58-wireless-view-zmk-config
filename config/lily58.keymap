@@ -152,7 +152,7 @@
 
         Hyper {
             bindings = <
-&none  &none                         &none                         &none                         &none                         &none                  &none  &none  &none  &none  &none  &none
+&none  &kp LS(LA(LC(LG(NUMBER_1))))  &none                         &none                         &none                         &none                  &none  &none  &none  &none  &none  &none
 &none  &none                         &kp LS(LA(LC(LG(NUMBER_7))))  &kp LS(LA(LC(LG(NUMBER_8))))  &kp LS(LA(LC(LG(NUMBER_9))))  &none                  &none  &none  &none  &none  &none  &none
 &none  &kp LS(LA(LC(LG(NUMBER_0))))  &kp LS(LA(LC(LG(NUMBER_4))))  &kp LS(LA(LC(LG(N5))))        &kp LS(LC(LA(LG(NUMBER_6))))  &none                  &none  &none  &none  &none  &none  &none
 &none  &none                         &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &none  &none    &none  &none  &none  &none  &none  &none  &none
