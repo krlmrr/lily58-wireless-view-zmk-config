@@ -21,14 +21,14 @@
 
         l_shift_or_caps_word: l_shift_or_caps_word {
             compatible = "zmk,behavior-tap-dance";
-            label = "L_SHIFT_OR_CAPS_WORD";
+            label = "L Shift or Caps Word";
             #binding-cells = <0>;
             bindings = <&kp LEFT_SHIFT>, <&caps_word>;
         };
 
         r_shift_or_caps_word: r_shift_or_caps_word {
             compatible = "zmk,behavior-tap-dance";
-            label = "R_SHIFT_OR_CAPS_WORD";
+            label = "R Shift or Caps Word";
             #binding-cells = <0>;
             bindings = <&kp RIGHT_SHIFT>, <&caps_word>;
         };
